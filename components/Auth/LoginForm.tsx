@@ -3,7 +3,6 @@
 
 import React, { useState } from 'react';
 import { supabase } from '../../lib/supabaseClient.ts';
-import "./globals.css";
 
 type AuthMode = 'login' | 'register';
 

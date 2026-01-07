@@ -2,7 +2,8 @@ module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./components/Auth/**/*.{js,ts,jsx,tsx}"
+    "./components/Auth/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [
     "bg-[#002b36]",
